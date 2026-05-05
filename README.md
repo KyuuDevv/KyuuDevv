@@ -1,61 +1,70 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>KuroNeko | System Status</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        mono: ['"JetBrains Mono"', 'monospace'],
-                        display: ['"Space Grotesk"', 'sans-serif']
-                    },
-                    colors: {
-                        'primary':   '#6366f1',
-                        'secondary': '#818cf8',
-                        'accent':    '#a78bfa',
-                        'deep':      '#4338ca',
-                        'base':      '#0d0f1a',
-                        'card':      '#13162a',
-                        'surface':   '#1a1d35',
-                    },
-                    animation: {
-                        'blob': 'blob 8s infinite',
-                        'fade-up': 'fadeUp 0.6s ease-out forwards',
-                        'slide-in': 'slideIn 0.7s cubic-bezier(0.16,1,0.3,1) forwards',
-                        'pulse-dot': 'pulseDot 2s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        blob: {
-                            '0%':   { transform: 'translate(0px, 0px) scale(1)' },
-                            '33%':  { transform: 'translate(30px, -50px) scale(1.1)' },
-                            '66%':  { transform: 'translate(-20px, 20px) scale(0.9)' },
-                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
-                        },
-                        fadeUp:  { '0%': { opacity:'0', transform:'translateY(12px)' }, '100%': { opacity:'1', transform:'translateY(0)' } },
-                        slideIn: { '0%': { opacity:'0', transform:'translateY(30px) scale(0.97)' }, '100%': { opacity:'1', transform:'translateY(0) scale(1)' } },
-                        pulseDot:{ '0%,100%': { opacity:'1', transform:'scale(1)' }, '50%': { opacity:'0.5', transform:'scale(0.85)' } }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            background-color: #0d0f1a;
-            background-image:
-                radial-gradient(ellipse at 15% 10%, rgba(99,102,241,0.12) 0%, transparent 45%),
-                radial-gradient(ellipse at 85% 90%, rgba(167,139,250,0.10) 0%, transparent 45%);
-        }
-        .bg-grid-size { background-size: 32px 32px; }
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #1a1d35; border-radius: 3px; }
+# 💫 About Me
+Hola, I’m **Kyu** — a developer who enjoys building web apps, experimenting with cloud platforms, and exploring modern backend technologies.
+
+---
+
+## 🌐 Socials
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/Jhonshelby555)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@Kyuuzynnnnnnn)
+
+---
+
+## 💻 Tech Stack
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white)
+
+### ☁️ Cloud & DevOps
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+
+### 🎨 Design & Tools
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black)
+
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.shion.dev/api?username=KyuuDevv&theme=dracula&hide_border=false&include_all_commits=true&count_private=true)
+
+![](https://streak-stats.demolab.com/?user=KyuuDevv&theme=dracula&hide_border=false)
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=KyuuDevv&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=KyuuDevv&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+---
+
+## ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)
+
+---
+
+## 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=KyuuDevv&limit=5&theme=dracula&combine_all_yearly_contributions=true)
+
+---
+
+![](https://komarev.com/ghpvc/?username=KyuuDevv&icon=7&color=6)
+
+<!-- Proudly created with GPRM -->        ::-webkit-scrollbar-thumb { background: #1a1d35; border-radius: 3px; }
 
         .glass-card {
             background: rgba(19,22,42,0.80);
