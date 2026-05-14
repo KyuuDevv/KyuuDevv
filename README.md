@@ -4,7 +4,7 @@
 
 # 💫 About Me
 
-Hi, I'm **Kyu** 👋  
+Hi, I'm **Rynn** 👋  
 A passionate developer who enjoys building web apps, cloud projects, and experimenting with modern backend systems.
 
 - 🚀 Currently building cool side projects
@@ -15,7 +15,7 @@ A passionate developer who enjoys building web apps, cloud projects, and experim
 
 <td align="right">
 
-<img src="YOUR_IMAGE_URL" width="180" style="border-radius: 12px;" />
+<img src="https://athars.space/uploads/3ff1c2e1.jpg" width="180" style="border-radius: 12px;" />
 
 </td>
 </tr>
